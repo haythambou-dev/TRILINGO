@@ -1,9 +1,18 @@
-Item,Quantity,Status / ownership,Estimated unit price (MAD),Purchase link,Notes
-ESP32 development board,1,Already owned,85-150,https://yasmo.ma/en/store/1/,Exact model to confirm; price is replacement estimate
-Momentary picture buttons,9,Planned,TBD,,Find affordable buttons compatible with the enclosure
-3-position language selector,1,Planned,TBD,,Darija / French / English
-DFPlayer Mini audio module,1,Proposed,40,https://www.microplanet.ma/en/produit/dfplayer-mini-mp3-player-module/,Price listed by MicroPlanet
-3W 8 ohm speaker,1,Selected concept,TBD,,Confirm dimensions and availability
-JST-PH 2.0 connector,1,Selected concept,TBD,,Confirm connector and cable requirements
-Battery and charging/protection,TBD,Not designed,TBD,,Choose after power requirements are defined
-Enclosure material / fasteners,TBD,Not specified,TBD,,Add after enclosure dimensions are finalized
+Category,Item,Quantity,Estimated unit cost (MAD),Cost status,Notes,Estimated line total (MAD)
+Hardware,ESP32 development board,1,250,Estimated,Higher-end estimate; user previously reported paying 180 MAD,250
+Hardware,DFPlayer Mini audio module,1,120,Estimated,Higher-end estimate; user previously reported paying 80 MAD,120
+Hardware,3W speaker,1,90,Estimated,Higher-end estimate; user previously reported paying 50 MAD,90
+Hardware,JST connector,1,50,Estimated,Higher-end estimate; user previously reported paying 30 MAD,50
+Hardware,Battery,1,80,Estimated,Higher-end estimate; user previously reported paying 20 MAD,80
+Hardware,Cables and wires,1,120,Estimated,Set allowance,120
+Hardware,Prototyping board,1,80,Estimated,Allowance,80
+Hardware,Resistors and electronic components,1,100,Estimated,Set allowance,100
+Hardware,Switches,1,80,Estimated,Set allowance,80
+Hardware,Fabrication and enclosure materials,1,300,Estimated,Fabrication allowance,300
+Hardware,Screws and mounting hardware,1,50,Estimated,Allowance,50
+Hardware,Shipping,1,200,Estimated,Higher shipping allowance; actual amount not confirmed,200
+Hardware,Testing and replacement parts,1,150,Estimated,Contingency allowance,150
+Development,Electronics design and development,1,700,Estimated project value,Not necessarily cash spent,700
+Development,Firmware development,1,500,Estimated project value,Not necessarily cash spent,500
+Development,Mechanical design and CAD,1,500,Estimated project value,Not necessarily cash spent,500
+Development,Prototyping and iteration work,1,400,Estimated project value,Not necessarily cash spent,400
