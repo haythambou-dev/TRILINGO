@@ -1,0 +1,9 @@
+﻿Item,Quantity,Status / ownership,Unit price (MAD),Purchase link,Notes
+ESP32 development board,1,Owned / acquired; exact model to confirm,,,Record exact model and link/photo
+Momentary picture buttons,9,Planned; confirm exact parts and ownership,,,3x3 interface concept
+3-position language selector,1,Planned,,,Darija / French / English
+DFPlayer Mini audio module,1,Proposed; availability not confirmed,,,Do not mark as owned
+3 W 8 ohm rectangular speaker,1,Selected concept; ownership/availability to confirm,,,Speaker choice discussed
+JST-PH 2.0 connector,1,Selected concept; ownership/availability to confirm,,,Connector choice discussed
+Battery and charging/protection,TBD,Deferred / not designed,,,Choose only after power requirements are defined
+Enclosure material / fasteners,TBD,Not specified,,,Add after CAD and dimensions are final
