@@ -1,9 +1,9 @@
-﻿Item,Quantity,Status / ownership,Unit price (MAD),Purchase link,Notes
-ESP32 development board,1,Owned / acquired; exact model to confirm,,,Record exact model and link/photo
-Momentary picture buttons,9,Planned; confirm exact parts and ownership,,,3x3 interface concept
-3-position language selector,1,Planned,,,Darija / French / English
-DFPlayer Mini audio module,1,Proposed; availability not confirmed,,,Do not mark as owned
-3 W 8 ohm rectangular speaker,1,Selected concept; ownership/availability to confirm,,,Speaker choice discussed
-JST-PH 2.0 connector,1,Selected concept; ownership/availability to confirm,,,Connector choice discussed
-Battery and charging/protection,TBD,Deferred / not designed,,,Choose only after power requirements are defined
-Enclosure material / fasteners,TBD,Not specified,,,Add after CAD and dimensions are final
+Item,Quantity,Status / ownership,Estimated unit price (MAD),Purchase link,Notes
+ESP32 development board,1,Already owned,85-150,https://yasmo.ma/en/store/1/,Exact model to confirm; price is replacement estimate
+Momentary picture buttons,9,Planned,TBD,,Find affordable buttons compatible with the enclosure
+3-position language selector,1,Planned,TBD,,Darija / French / English
+DFPlayer Mini audio module,1,Proposed,40,https://www.microplanet.ma/en/produit/dfplayer-mini-mp3-player-module/,Price listed by MicroPlanet
+3W 8 ohm speaker,1,Selected concept,TBD,,Confirm dimensions and availability
+JST-PH 2.0 connector,1,Selected concept,TBD,,Confirm connector and cable requirements
+Battery and charging/protection,TBD,Not designed,TBD,,Choose after power requirements are defined
+Enclosure material / fasteners,TBD,Not specified,TBD,,Add after enclosure dimensions are finalized
