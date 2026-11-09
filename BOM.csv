@@ -1,18 +1,17 @@
-Category,Item,Quantity,Estimated unit cost (MAD),Cost status,Notes,Estimated line total (MAD)
-Hardware,ESP32 development board,1,250,Estimated,Higher-end estimate; user previously reported paying 180 MAD,250
-Hardware,DFPlayer Mini audio module,1,120,Estimated,Higher-end estimate; user previously reported paying 80 MAD,120
-Hardware,3W speaker,1,90,Estimated,Higher-end estimate; user previously reported paying 50 MAD,90
-Hardware,JST connector,1,50,Estimated,Higher-end estimate; user previously reported paying 30 MAD,50
-Hardware,Battery,1,80,Estimated,Higher-end estimate; user previously reported paying 20 MAD,80
-Hardware,Cables and wires,1,120,Estimated,Set allowance,120
-Hardware,Prototyping board,1,80,Estimated,Allowance,80
-Hardware,Resistors and electronic components,1,100,Estimated,Set allowance,100
-Hardware,Switches,1,80,Estimated,Set allowance,80
-Hardware,Fabrication and enclosure materials,1,300,Estimated,Fabrication allowance,300
-Hardware,Screws and mounting hardware,1,50,Estimated,Allowance,50
-Hardware,Shipping,1,200,Estimated,Higher shipping allowance; actual amount not confirmed,200
-Hardware,Testing and replacement parts,1,150,Estimated,Contingency allowance,150
-Development,Electronics design and development,1,700,Estimated project value,Not necessarily cash spent,700
-Development,Firmware development,1,500,Estimated project value,Not necessarily cash spent,500
-Development,Mechanical design and CAD,1,500,Estimated project value,Not necessarily cash spent,500
-Development,Prototyping and iteration work,1,400,Estimated project value,Not necessarily cash spent,400
+Item,Category,Estimated Cost (MAD)
+ESP32 Development Board,Electronics,180
+9 Physical Buttons,Electronics,450
+Language Selector,Electronics,120
+DFPlayer Mini,Electronics,120
+LCD Display,Electronics,250
+Speaker,Electronics,100
+JST Connectors,Electronics,30
+Wires and Cables,Electronics,120
+Prototyping Board,Electronics,100
+Resistors and Components,Electronics,80
+Switches,Electronics,80
+Enclosure Fabrication and Materials,Mechanical,600
+Screws and Mounting Hardware,Mechanical,70
+Shipping and Delivery,Other,1000
+Testing and Miscellaneous Expenses,Other,400
+TOTAL,,3700
