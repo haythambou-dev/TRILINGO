@@ -86,8 +86,8 @@ Firmware instructions will be added after the exact ESP32 board, pin assignments
 
 ## Contributions and originality
 
-The project owner is responsible for the original design, implementation, testing and documentation. AI assistance may be used for brainstorming, editing and debugging, but all submitted designs and claims must be checked and understood by the project owner.
+I'm designing and building TRILINGO myself. I sometimes use AI to help with ideas, writing, or debugging, but I make the design decisions and work on understanding and testing everything myself.
 
 ## License
 
-No license has been selected yet. Add one only after deciding how you want others to use and modify this project.
+No license yet. I'll choose one once I decide how I want people to use and modify the project.
