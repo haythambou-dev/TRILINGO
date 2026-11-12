@@ -1,17 +1,25 @@
-Item,Category,Estimated Cost (MAD)
-ESP32 Development Board,Electronics,180
-9 Physical Buttons,Electronics,450
-Language Selector,Electronics,120
-DFPlayer Mini,Electronics,120
-LCD Display,Electronics,250
-Speaker,Electronics,100
-JST Connectors,Electronics,30
-Wires and Cables,Electronics,120
-Prototyping Board,Electronics,100
-Resistors and Components,Electronics,80
-Switches,Electronics,80
-Enclosure Fabrication and Materials,Mechanical,600
-Screws and Mounting Hardware,Mechanical,70
-Shipping and Delivery,Other,300
-Testing and Miscellaneous Expenses,Other,400
-TOTAL,,3000
+Category,Item,Quantity,Unit Price (MAD),Total (MAD),Purchase Link
+Core Electronics,ESP32 DevKit V1,1,114,114,https://shop4makers.com/produit/esp32-wroom-cp2102/
+Audio,DFPlayer Mini MP3 Module,1,38,38,https://shop4makers.com/categorie-produit/modules/amplificateurs-et-accessoires-audio/lecteurs-mp3-bluetooth-radio/
+Audio,3W 8 Ohm Speaker,1,50,50,https://shop4makers.com/categorie-produit/modules/amplificateurs-et-accessoires-audio/
+Power,18650 Rechargeable Battery,1,20,20,https://shop4makers.com/categorie-produit/alimentations-batteries/batteries-et-piles/batteries-lithium-18650/
+Power,TP4056 USB-C Charger with Protection,1,15,15,https://shop4makers.com/produit/chargeur-batterie-18650-tp4056-with-protection/
+Wiring,Jumper Wires Set,1,9,9,https://shop4makers.com/categorie-produit/cables-fils-cordons/
+Prototyping,400-Point Breadboard,1,20,20,https://shop4makers.com/categorie-produit/composants-electroniques/breadboards/
+Prototyping,Perforated PCB Board,1,4,4,https://shop4makers.com/categorie-produit/composants-electroniques/cartes-de-prototypage/
+Components,Resistors Assortment,10,0.40,4,https://shop4makers.com/categorie-produit/composants-electroniques/resistances/
+Controls,Tactile Push Buttons,5,2.70,13.50,https://shop4makers.com/categorie-produit/composants-electroniques/boutons-interrupteurs/
+Tools,ESP32 37-Sensor Kit,1,250,250,https://shop4makers.com/
+Tools,21-in-1 Soldering Kit,1,399.60,399.60,https://shop4makers.com/categorie-produit/outils-et-appareils/
+Tools,DT9205A Digital Multimeter,1,79,79,https://shop4makers.com/categorie-produit/outils-et-appareils/
+Workshop,Heat-Shrink Tubing 164pcs,1,50,50,https://shop4makers.com/categorie-produit/outils-et-appareils/
+Tools,8-Channel Logic Analyzer,1,79,79,https://shop4makers.com/categorie-produit/outils-et-appareils/
+Tools,LCR-T4 Component Tester,1,135,135,https://shop4makers.com/categorie-produit/outils-et-appareils/
+Modules,DS3231 RTC Module,1,28,28,https://shop4makers.com/produit/rtc-ds3231-24c32-maroc/
+Modules,MPU6050 Motion Sensor,1,36,36,https://shop4makers.com/categorie-produit/capteurs/capteurs-inertiels-magnetometres/
+Modules,Active Buzzer,1,4,4,https://shop4makers.com/produit/buzzer-module/
+Enclosure,Cardboard Sheets,1,15,15,https://shop4makers.com/
+Enclosure,Glue and Double-Sided Tape,1,20,20,https://shop4makers.com/
+Hardware,Screws and Mounting Parts,1,25,25,https://shop4makers.com/categorie-produit/outils-et-appareils/
+Shipping,Delivery,1,30,30,https://shop4makers.com/
+TOTAL,,,,"1438.10",
