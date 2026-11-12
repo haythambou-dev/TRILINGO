@@ -1,93 +1,50 @@
-# TRILINGO
+# TRILINGO 🗣️
 
-> An affordable, customizable, multilingual communication-device concept for children, designed with the Moroccan context in mind.
+**A simple communication device designed to help children express themselves.**
 
-**Project status:** Prototype/design in progress. This repository is an honest working record, not a claim that the final device is complete.
+TRILINGO is a project I'm building to make communication easier for children who have difficulty expressing their needs, feelings and thoughts.
 
-## What is TRILINGO?
+The idea came from wanting to create something simple but useful: a small physical device with buttons that play spoken messages when pressed.
 
-TRILINGO is a planned physical communication aid built around picture-based buttons. A child selects a picture representing a need or message; the device is intended to help communicate that message using recorded speech in **Moroccan Darija, French, and English**.
+I want TRILINGO to support three languages: Moroccan Darija, French and English, so children can communicate in the language they're most comfortable with.
 
-The current concept uses an ESP32-based controller and a 3×3 layout of nine physical picture buttons. Audio playback hardware and the final enclosure/electronics are still being verified.
+## How it works
 
-## Why make it?
+The device will have three large physical buttons. Each button represents a different message. When a child presses one, the ESP32 will detect the input and play the corresponding voice recording through a speaker.
 
-The goal is to explore a locally relevant, affordable and customizable communication aid. The project is being developed as a hands-on prototype, with usability and reliability to be tested rather than assumed.
+For the first prototype, I'm planning to use a cardboard enclosure to test the design and button placement before making a more finished version.
 
-## Current status
+## Voice system
 
-| Area | Status |
-|---|---|
-| Product concept | Defined |
-| 9-button, 3×3 interaction concept | Planned; physical implementation needs verification |
-| ESP32 development board | Board acquired; exact model and pinout need confirmation |
-| Audio playback | Planned; module and wiring not yet verified |
-| Darija / French / English recordings | To be recorded and tested |
-| Enclosure CAD and STEP files | Not yet added |
-| Custom PCB | Not yet designed / not applicable if prototype uses modules and wiring |
-| Firmware | To be added after pin mapping and hardware verification |
-| User testing | Not yet documented |
+I'm using ElevenLabs to generate the voice recordings instead of recording them myself.
 
-See [project status](docs/PROJECT_STATUS.md) and [the hardware notes](docs/HARDWARE_NOTES.md).
+So far, I've generated six audio files, each containing the same phrase in Darija, French and English. That's 18 spoken phrases in total.
 
-## How it is intended to work
+I'm also developing a small audio editing application to help me listen to, trim, adjust and organize the recordings before integrating them into TRILINGO.
 
-1. The child presses a picture button.
-2. The controller identifies the selected button.
-3. The device selects the matching message in the chosen language.
-4. The corresponding recorded message is played through the speaker.
+## Hardware
 
-This is the intended interaction flow. The complete audio path and language-selection implementation are still under development.
+The current plan is to use an ESP32 as the main controller, together with three physical buttons, a speaker, audio playback components and a power supply.
 
-## Repository structure
+I'll finalize the exact components and wiring as the design develops.
 
-```text
-TRILINGO/
-├── README.md
-├── BOM.csv
-├── docs/
-│   ├── PROJECT_STATUS.md
-│   ├── HARDWARE_NOTES.md
-│   ├── TEST_PLAN.md
-│   └── diagrams/
-├── electronics/
-│   ├── schematic/
-│   ├── pcb/
-│   └── wiring/
-├── firmware/
-│   └── esp32/
-└── mechanical/
-    ├── assembly/
-    ├── parts/
-    ├── step/
-    └── renders/
-```
+## Technologies
 
-## Screenshots and media
+- ESP32 for controlling the device.
+- ElevenLabs for generating voices.
+- Python and web technologies for software tools.
+- GitHub for organizing and documenting development.
 
-Add genuine project images as work progresses:
+## Current progress
 
-- Full 3D assembly: `mechanical/renders/`
-- Individual CAD parts and STEP exports: `mechanical/step/`
-- Schematic and wiring diagram: `electronics/schematic/` and `electronics/wiring/`
-- PCB screenshots and source: `electronics/pcb/`
-- Prototype and final-product photos: `docs/photos/`
-- Demo video: add its public URL here when one exists.
+The main idea and initial design direction are established. I've also started working on the multilingual audio system and the audio editing application.
 
-Do not use concept renders as evidence of a completed physical build. Label concept images clearly.
+My next goal is to finalize the physical design, choose the electronic components and get the three buttons playing their assigned messages.
 
-## Bill of materials
+## What's next?
 
-See [`BOM.csv`](BOM.csv). Prices, exact part numbers and purchase links must be filled from the actual parts used or selected. Items already owned should be marked as owned.
+I want to start with a simple working prototype instead of trying to build everything at once. Once the basic system works, I'll improve the design and add more phrases and features.
 
-## Build and firmware
+TRILINGO is still a work in progress, and I'll be documenting the process as I build it.
 
-Firmware instructions will be added after the exact ESP32 board, pin assignments and audio hardware are confirmed. No pin mapping is assumed in this starter repository.
-
-## Contributions and originality
-
-I'm designing and building TRILINGO myself. I sometimes use AI to help with ideas, writing, or debugging, but I make the design decisions and work on understanding and testing everything myself.
-
-## License
-
-No license yet. I'll choose one once I decide how I want people to use and modify the project.
+**Made with curiosity, code and a little cardboard. 💛**
